@@ -1,0 +1,7 @@
+node_modules
+dist
+src/fonts
+src/icons
+src/img
+gulpfile.js
+package-lock.json

@@ -1,0 +1,54 @@
+.promo {
+    margin-top: 20px;
+    height: 732px;
+    padding: 16px;
+    background-color: #FFFFEF;
+    &__bg {
+        height: 700px;
+        background: url('../img/promo_bg.jpg') center center/cover no-repeat;
+        &-descr {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: flex-end;
+            padding: 462px 64px 64px 0;
+        }
+        &-suptitle {
+            font-size: 18px;
+            line-height: 22px;
+            color: #56593D;
+            font-weight: 400;
+        }
+        &-title {
+            margin-top: 10px;
+            h1 {
+                font-weight: 400;
+                font-size: 45px;
+                line-height: 60px;
+                color: #56593D;
+            }
+        }
+        &-button {
+            margin-top: 26px;
+            button {
+                width: 154px;
+                height: 46px;
+                border: none;
+                background: #56593D;
+                color: #FFFFEF;
+                text-transform: uppercase;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 22px;
+                cursor: pointer;
+                &:hover {
+                    background: #696d47;
+                }
+                &:active {
+                    font-size: 15px;
+                    background: #aab16b;
+                }
+            }
+        }
+    }
+}

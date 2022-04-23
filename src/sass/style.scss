@@ -1,0 +1,15 @@
+@import 'bootstrap-reboot.min.scss';
+@import 'fonts.scss';
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    position: relative;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+@import 'blocks/animations';
+@import 'blocks/header';
+@import 'blocks/promo';
