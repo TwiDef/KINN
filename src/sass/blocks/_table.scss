@@ -6,20 +6,18 @@
         padding-top: 64px;
         min-height: 618px;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
     &__photo {
-        padding: 0 32px 64px 0px;
+        width: 740px;
+        height: 886px;
         display: flex;
         justify-content: center;
-        width: 64%;
-        img {
-            width: 100%;
-        }
     }
     &__block {
-        width: 36%;
-        padding: 70px 55px 334px 70px;
+        width: 520px;
+        height: 390px;
+        padding: 62px 86px 0 86px;
         &-title {
             text-align: center;
             font-size: 29px;
