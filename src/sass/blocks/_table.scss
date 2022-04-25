@@ -1,6 +1,6 @@
-.design {
+.table {
     margin-top: 24px;
-    min-height: 746px;
+    min-height: 1014px;
     background-color: #FFFFEF;
     &__wrapper {
         padding-top: 64px;
@@ -9,12 +9,10 @@
         justify-content: space-around;
     }
     &__photo {
-        min-width: 740px;
-        min-height: 618px;
+        padding: 0 32px 64px 0px;
         display: flex;
         justify-content: center;
         width: 64%;
-        padding: 0 0 64px 34px;
         img {
             width: 100%;
         }

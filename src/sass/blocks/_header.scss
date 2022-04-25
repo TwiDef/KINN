@@ -27,6 +27,7 @@
         }
     }
     &__logo {
+        transition: 0.3s all;
         width: 33.33%;
         display: block;
         width: 90px;
@@ -34,6 +35,11 @@
         img {
             width: 100%;
             height: 100%;
+        }
+        &:hover {
+            width: 98px;
+            height: 34px;
+            cursor: pointer;
         }
     }
     &__tools {
