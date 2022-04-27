@@ -12,13 +12,16 @@
     &__wrapper {
         margin-top: 80px;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
     &__card {
         transition: .8s all;
-        &:hover {
-            width: 424px;
+        img {
             cursor: pointer;
+            transition: .4s all;
+            &:hover {
+                opacity: 0.5;
+            }
         }
     }
     &__card-photo {

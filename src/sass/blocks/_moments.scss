@@ -1,0 +1,24 @@
+.moments {
+    margin-top: 40px;
+    min-height: 520px;
+    background-color: #FFFFEF;
+    &__title {
+        padding-top: 64px;
+        font-size: 25px;
+        text-align: center;
+        color: #56593D;
+    }
+    &__gallery {
+        padding-top: 30px;
+        display: flex;
+        justify-content: space-evenly;
+        img {
+            width: 100%;
+            cursor: pointer;
+            transition: .4s all;
+            &:hover {
+                opacity: 0.5;
+            }
+        }
+    }
+}
