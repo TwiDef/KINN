@@ -26,6 +26,7 @@
         }
     }
     &__menu {
+        margin-right: 92px;
         font-size: 17px;
         color: #FFFFEF;
         padding-top: 64px;
@@ -51,6 +52,23 @@
             img {
                 padding-bottom: 6px;
             }
+        }
+    }
+    &__help {
+        margin-right: 400px;
+    }
+    &__media {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__media-wrapper {
+        padding-top: 64px;
+        width: 100px;
+        height: 24px;
+        display: flex;
+        justify-content: space-between;
+        img {
+            width: 100%;
         }
     }
 }
