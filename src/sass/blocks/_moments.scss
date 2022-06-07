@@ -17,7 +17,8 @@
             cursor: pointer;
             transition: .4s all;
             &:hover {
-                opacity: 0.5;
+                opacity: 0.9;
+                transform: scale(1.075);
             }
         }
     }

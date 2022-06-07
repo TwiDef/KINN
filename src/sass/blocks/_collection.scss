@@ -15,12 +15,15 @@
         justify-content: space-evenly;
     }
     &__card {
-        transition: .8s all;
+        /* transition: .8s all; */
         img {
             cursor: pointer;
             transition: .4s all;
             &:hover {
-                opacity: 0.5;
+                opacity: 0.9;
+                transform: scale(1.075);
+                transition: all .235 ease-in-out;
+                margin-bottom: 16px;
             }
         }
     }
